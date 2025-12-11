@@ -1,0 +1,16 @@
+package Polymorphism;
+
+public class Driver3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   Payment p;
+   p=new UPI();
+   p.pay(5000);
+   p=new NetBanking();
+   p.pay(7000);
+   p=new DebitCard();
+   p.pay(90000);
+	}
+
+}
